@@ -1,0 +1,8 @@
+platform :macos, '10.10'
+
+target 'LocalServer' do
+#	use_frameworks!
+#   pod 'CocoaHTTPServer', '~> 2.3' # 6-7years ago
+   pod 'CocoaHTTPServer2', '~> 2.4.1'  # 4 years ago
+   
+end
